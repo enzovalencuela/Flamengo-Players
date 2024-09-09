@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Futebol</title>
+  </head>
+  <body>
+    <div class="pagina">
+      <header>
+        <h1>Flamengo</h1>
+      </header>
+      <main>
+        <!--BOTÃO-->
+        <section>
+          <input
+            type="text"
+            placeholder="Digite o jogador ou todos"
+            id="campo-pesquisa"
+          />
+          <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+      </main>
+      <!--RODAPÉ-->
+      <footer>
+        <p>2024 - Atletas do Flamengo. todos direitos reservados</p>
+        <p>Entre em contato pelo email: esilvavalencuela@gmail.com</p>
+      </footer>
+    </div>
+
+    <!--AUDIO DE FUNDO-->
+    <div>
+      <audio autoplay loop>
+        <source src="./audios/hino-do-flamengo.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <!--SCRIPT-->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
