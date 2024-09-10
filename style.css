@@ -49,14 +49,14 @@ section input {
   color: #ffffff; /* Cor do texto */
   font-size: 1rem; /* Tamanho da fonte */
   box-sizing: border-box; /* Inclui padding e border na largura total */
-  width: 300px; /* Define a largura inicial */
-  min-width: 80%; /* Garante que a barra ocupe pelo menos 80% da largura do container */
+  width: 400px; /* Define a largura inicial */
+  min-width: 50%; /* Garante que a barra ocupe pelo menos 80% da largura do container */
 }
 
 @media (max-width: 768px) {
   /* Ajusta o estilo para telas menores que 768px */
   section input {
-    width: 100%; /* Ocupa 100% da largura para telas menores */
+    width: 60%; /* Ocupa 100% da largura para telas menores */
   }
 }
 
@@ -73,11 +73,18 @@ section button {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-  height: 46vh; /* Altura máxima da caixa de resultados */
-  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-  margin: 5% 5%; /* Espaçamento acima da caixa de resultados */
-  padding: 1rem; /* Espaçamento interno */
-  border-radius: 0.6rem; /* Borda arredondada */
+  height: 70vh; /* Ajuste a altura conforme necessário */
+  max-height: 400px; /* Define uma altura máxima em pixels para telas muito pequenas */
+  overflow-y: auto;
+  margin: 2rem auto; /* Centraliza a seção horizontalmente */
+  padding: 1rem;
+  border-radius: 0.6rem;
+
+  /* Ajustes para telas menores */
+  @media (max-width: 768px) {
+    height: 80vh;
+    margin: 1rem;
+  }
 }
 
 /* Estiliza cada item de resultado */
@@ -89,16 +96,32 @@ section button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
-.nome-logo {
-  display: flex; /* Usa Flexbox para layout */
-  flex-direction: row; /* Alinha os itens na vertical */
-  align-items: center;
-}
-
-.img-titulos {
+.img-info {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: row; /* Alinha os itens na vertical */
   align-items: start;
+}
+
+.numero-nome {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: row; /* Alinha os itens na vertical */
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+#numero {
+  font-size: 4rem;
+  color: rgb(255, 37, 37);
+}
+
+#nome {
+  font-size: 2.3rem;
+}
+
+.link-pagina {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: row; /* Alinha os itens na vertical */
+  align-items: center;
 }
 
 .div-info {

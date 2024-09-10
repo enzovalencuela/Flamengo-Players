@@ -32,19 +32,23 @@ function pesquisar() {
       // Cria um novo elemento
       resultados += `
       <div class="item-resultado">
-        <h2 class="nome-logo">${dado.nome}<a href="${dado.pagina}" target="_blank"><img src="./imagens/instagram-logo.png" alt="Logo do Instagram" width="50" height="50"></a></h2>
-        <div class="img-titulos">
+        <div class="img-info">
           <img src="${dado.imagem}" alt="">
-          <div class="div-info">
-          <h3>Posição</h3>
-          <p id="info">${dado.posicao}</p>
-          <h3>Títulos</h3>
-          <p id="info">${dado.titulos}</p>
-          <h3>Nascimento</h3>
-          <p id="info">${dado.dataNascimento}</p>
-          <h3>Curiosidades</h3>
-          <p id="info">${dado.curiosidades}</p>
-          </div>
+            
+            <div class="div-info">
+            <div class="numero-nome">
+              <h2 id="numero">${dado.numero}</h2>
+              <a class="link-pagina" href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
+            </div>
+              <h3>Posição</h3>
+              <p id="info">${dado.posicao}</p>
+              <h3>Títulos</h3>
+              <p id="info">${dado.titulos}</p>
+              <h3>Nascimento</h3>
+              <p id="info">${dado.dataNascimento}</p>
+              <h3>Curiosidades</h3>
+              <p id="info">${dado.curiosidades}</p>
+            </div>
         </div>
         <p class="descricao-meta">${dado.descricao}</p>
       </div>

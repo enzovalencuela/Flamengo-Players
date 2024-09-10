@@ -10,6 +10,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/4/1710273789.png",
     tags: "Brasil, Flamengo, Ayrton Lucas, lateral-esquerdo, todos",
+    numero: "6",
     posicao: "Lateral-esquerdo",
     titulos:
       "Campeonato Carioca (2023, 2024) <br> Brasileirão (2020) <br> Libertadores (2019, 2022) <br> Copa do Brasil (2022) <br> Supercopa do Brasil (2020, 2021)",
@@ -26,6 +27,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/7/1710273427.png",
     tags: "Brasil, Flamengo, Bruno Henrique, atacante, todos",
+    numero: "27",
     posicao: "Atacante",
     titulos:
       "Campeonato Carioca (2019, 2020, 2021, 2023, 2024) <br> Brasileirão (2019, 2020) <br> Libertadores (2019, 2022) <br> Copa do Brasil (2022) <br> Recopa Sul-Americana (2020) <br> Supercopa do Brasil (2020, 2021)",
@@ -42,6 +44,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/2/1710271771.png",
     tags: "Brasil, Flamengo, David Luiz, zagueiro, todos",
+    numero: "23",
     posicao: "Zagueiro",
     titulos:
       "UEFA Champions League (2012) - Chelsea <br> Copa da Inglaterra (2012) - Chelsea <br> Campeonato Francês (2016) - PSG <br> Copa da França (2016) - PSG <br> Campeonato Carioca (2023, 2024) - Flamengo <br> Copa do Brasil (2022) - Flamengo <br> Libertadores (2022) - Flamengo",
@@ -58,6 +61,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/5/1710272551.png",
     tags: "Chile, Flamengo, Erick Pulgar, meio-campo, todos",
+    numero: "5",
     posicao: "Meia",
     titulos: "Campeonato Carioca (2023) <br> Libertadores (2022)",
     dataNascimento: "15/01/1994",
@@ -66,13 +70,14 @@ let dados = [
   },
   // Everton Cebolinha
   {
-    nome: "Everton Sousa (Cebolinha)",
+    nome: "Everton (Cebolinha)",
     descricao:
       "Atacante brasileiro conhecido por sua velocidade e habilidade nos dribles. Chegou ao Flamengo em 2022 e não conquistou muitos títulos pelo time.",
     pagina: "#",
     imagem:
       "https://images.flamengo.com.br/public/images/players/7/1710273556.png",
     tags: "Brasil, Flamengo, Cebolinha, atacante, todos",
+    numero: "11",
     posicao: "Atacante",
     titulos:
       "Campeonato Carioca (2023, 2024) <br> Libertadores (2022) <br> Copa do Brasil (2022)",
@@ -89,6 +94,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/7/1710273212.png",
     tags: "Brasil,Gabigol, artilheiro, todos",
+    numero: "99",
     posicao: "Atacante",
     titulos:
       "Campeonato Carioca (2019, 2020, 2021, 2024) <br> Brasileirão (2019, 2020) <br> Libertadores (2019, 2022) <br> Copa do Brasil (2022) <br> Recopa Sul-Americana (2020) <br> Supercopa do Brasil (2020, 2021)",
@@ -105,6 +111,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/5/1710361096.png",
     tags: "Brasil, Flamengo, Gerson, volante, todos",
+    numero: "8",
     posicao: "Volante",
     titulos:
       "Campeonato Carioca (2019, 2020, 2021, 2023, 2024) <br> Brasileirão (2019, 2020) <br> Libertadores (2019, 2022) <br> Copa do Brasil (2022) <br> Recopa Sul-Americana (2020) <br> Supercopa do Brasil (2020, 2021)",
@@ -121,6 +128,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/3/1710272112.png",
     tags: "Uruguai, Flamengo, Varela, lateral-direito, todos",
+    numero: "2",
     posicao: "Lateral-direito",
     titulos: "Campeonato Carioca (2023, 2024)",
     dataNascimento: "24/03/1993",
@@ -136,6 +144,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/6/1710272969.png",
     tags: "Uruguai, Flamengo, Arrascaeta, meia, todos",
+    numero: "14",
     posicao: "Meia",
     titulos:
       "Campeonato Carioca (2019, 2020, 2021, 2023, 2024) <br> Brasileirão (2019, 2020) <br> Libertadores (2019, 2022) <br> Copa do Brasil (2022) <br> Recopa Sul-Americana (2020) <br> Supercopa do Brasil (2020, 2021)",
@@ -152,6 +161,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/2/1710271857.png",
     tags: "Brasil, Flamengo, Léo Pereira, zagueiro, todos",
+    numero: "4",
     posicao: "Zagueiro",
     titulos:
       "Campeonato Carioca (2020, 2021, 2023, 2024) <br> Brasileirão (2020) <br> Libertadores (2019, 2022) <br> Copa do Brasil (2022) <br> Supercopa do Brasil (2020, 2021)",
@@ -168,6 +178,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/6/1710272793.png",
     tags: "Uruguai, Flamengo, De La Cruz, meia, estrangeiro, todos",
+    numero: "18",
     posicao: "Meia",
     titulos:
       "Campeonato Argentino (2021, 2023) - River Plate <br> Supercopa Argentina (2019/20) - River Plate <br> Copa Argentina (2016/17, 2018/19) - River Plate <br> Recopa Sudamericana (2018/19) - River Plate <br> Copa Libertadores (2018) - River Plate <br> Campeonato Carioca (2024) - Flamengo",
@@ -184,6 +195,7 @@ let dados = [
     imagem:
       "https://images.flamengo.com.br/public/images/players/7/1710273487.png",
     tags: "Brasil, Flamengo, Pedro, centroavante, todos",
+    numero: "9",
     posicao: "Centroavante",
     titulos:
       "Campeonato Carioca (2020, 2021, 2023, 2024) <br> Brasileirão (2020) <br> Libertadores (2022) <br> Copa do Brasil (2022) <br> Supercopa do Brasil (2020, 2021)",
