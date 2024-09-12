@@ -57,7 +57,7 @@ section input {
 @media (max-width: 768px) {
   /* Ajusta o estilo para telas menores que 768px */
   section input {
-    width: 60%; /* Ocupa 100% da largura para telas menores */
+    width: 100%; /* Ocupa 100% da largura para telas menores */
   }
 }
 
