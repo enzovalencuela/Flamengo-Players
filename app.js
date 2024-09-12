@@ -32,14 +32,15 @@ function pesquisar() {
       // Cria um novo elemento
       resultados += `
       <div class="item-resultado">
-        <div class="img-info">
-          <img src="${dado.imagem}" alt="">
+        <img src="${dado.imagem}" alt="">
             
             <div class="div-info">
-            <div class="numero-nome">
-              <h2 id="numero">${dado.numero}</h2>
-              <a class="link-pagina" href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
-            </div>
+
+               <div class="numero-nome">
+                 <h2 id="numero">${dado.numero}</h2>
+                 <a class="link-pagina" href="${dado.pagina}" target="_blank"><h2 id="nome">${dado.nome}</h2></a>
+               </div>
+
               <h3>Posição</h3>
               <p id="info">${dado.posicao}</p>
               <h3>Títulos</h3>
@@ -49,7 +50,7 @@ function pesquisar() {
               <h3>Curiosidades</h3>
               <p id="info">${dado.curiosidades}</p>
             </div>
-        </div>
+
         <p class="descricao-meta">${dado.descricao}</p>
       </div>
     `;

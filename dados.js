@@ -87,7 +87,7 @@ let dados = [
   },
   // Gabriel Barbosa
   {
-    nome: "Gabriel Barbosa (Gabigol)",
+    nome: "Gabriel Barbosa",
     descricao:
       "Atacante brasileiro conhecido por sua finalização e habilidade, artilheiro em diversas competições, ganhando o apelido de Gabigol. Ídolo do time.",
     pagina: "https://www.instagram.com/gabigol/",
